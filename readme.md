@@ -1,0 +1,5 @@
+# Election Funding Stats
+
+This is part of an article where I consider the funding influence of an election on the results. The last three elections (2016, 2020, 2024) were won by the candidate with less funding, and so as you can imagine if you do the math you find there isn't a strong correlation with funding and winning; depending on how you select the samples it can be negative.
+
+The article can be [read here](https://thomashansen.xyz/blog/election-spending-isnt-statistically-significant.html). Unfortunately as I go further back in time, the data and reporting becomes worse, so I've limited myself to the 2000 election and onward. This isn't a large sample size, and so meaningful conclusions can't be drawn form the data. I make use of SciPy and their [stats module](https://docs.scipy.org/doc/scipy/reference/stats.html), which made the project quite simple.
